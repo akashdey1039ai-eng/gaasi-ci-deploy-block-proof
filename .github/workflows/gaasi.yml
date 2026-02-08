@@ -18,4 +18,4 @@ jobs:
         env:
           AGENT_PAYLOAD_PATH: gaasi-agent.json
           GAASI_API_URL: ${{ secrets.GAASI_API_URL }}
-          GAASI_BEARER_TOKEN: ${{ secrets.GAASI_BEARER_TOKEN }}
+          GAASI_API_KEY: ${{ secrets.GAASI_API_KEY }}
