@@ -1,6 +1,6 @@
 {
   "agent_name": "ci-proof-agent",
-  "autonomy_level": "full",
+  "autonomy_level": "5",
   "capabilities": ["network_access", "self_modifying_code"],
   "deployment_context": "production",
   "risk_tier": "critical"
