@@ -15,6 +15,6 @@ jobs:
         uses: akashdey1039ai-eng/antarraksha-gaasi-gate-proof/.github/actions/gaasi-gate@main
         with:
           agent_payload_path: gaasi-agent.json
-          api_url: ${{ secrets.GAASI_CI_TOKEN }}
+          api_url: https://antarraksha.ai/api/survivability-gate/evaluate
           api_key: ${{ secrets.GAASI_API_KEY }}
           fail_on: BLOCKED
