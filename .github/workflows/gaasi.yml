@@ -16,5 +16,5 @@ jobs:
         with:
           agent_payload_path: gaasi-agent.json
           api_url: https://antarraksha.ai/api/survivability-gate/evaluate
-          api_key: 'antarraksha-ci-gate-2026'
+          api_key: ${{ secrets.GAASI_API_KEY }}
           fail_on: BLOCKED
